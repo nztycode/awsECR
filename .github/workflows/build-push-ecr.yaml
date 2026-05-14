@@ -12,7 +12,7 @@ jobs:
     env:
       AWS_REGION: ap-southeast-1
       ECR_REPOSITORY: nas-flask-private-repository
-      IMAGE_TAG: latest
+      ECR_REGISTRY: latest
 
     steps:
       # Checkout source code
