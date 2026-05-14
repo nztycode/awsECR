@@ -11,8 +11,9 @@ jobs:
 
     env:
       AWS_REGION: ap-southeast-1
+      ECR_REGISTRY: 255945442255.dkr.ecr.ap-southeast-1.amazonaws.com
       ECR_REPOSITORY: nas-flask-private-repository
-      IMAGE_TAG: latest
+  
 
     steps:
       - name: Checkout code
